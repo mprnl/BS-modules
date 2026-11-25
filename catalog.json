@@ -3,12 +3,15 @@
     "id": "accreditations",
     "source": "bundled",
     "path": "modules/accreditations",
-    "repo": null,
-    "ref": null,
+    "repo": "https://github.com/mprnl/BS-accreditations",
+    "ref": "v1.0.0",
+    "distributable": true,
     "description": "Scan des emails d'accréditation, fiches de demande et relance J+7.",
     "kit": "^0.1.0",
-    "env": ["GROQ_API_KEY"],
-    "visibility": null
+    "env": [
+      "GROQ_API_KEY"
+    ],
+    "visibility": "public"
   },
   {
     "id": "calendar",
@@ -16,9 +19,13 @@
     "path": "modules/calendar",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Google Calendar : création externe, recherche non fiable.",
     "kit": "^0.1.0",
-    "env": ["GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET"],
+    "env": [
+      "GOOGLE_CLIENT_ID",
+      "GOOGLE_CLIENT_SECRET"
+    ],
     "visibility": null
   },
   {
@@ -27,9 +34,12 @@
     "path": "modules/concerts",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Concerts suivis et préparation terrain.",
     "kit": "^0.1.0",
-    "env": ["OPENWEATHERMAP_API_KEY"],
+    "env": [
+      "OPENWEATHERMAP_API_KEY"
+    ],
     "visibility": null
   },
   {
@@ -38,6 +48,7 @@
     "path": "modules/daily-brief",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Job du brief du jour. Aucune page, aucun outil.",
     "kit": "^0.1.0",
     "env": [],
@@ -49,9 +60,13 @@
     "path": "modules/emails",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Gmail : lecture non fiable, envoi confirmé.",
     "kit": "^0.1.0",
-    "env": ["GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET"],
+    "env": [
+      "GOOGLE_CLIENT_ID",
+      "GOOGLE_CLIENT_SECRET"
+    ],
     "visibility": null
   },
   {
@@ -60,6 +75,7 @@
     "path": "modules/followups",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Relances datées, écriture vérifiée par relecture.",
     "kit": "^0.1.0",
     "env": [],
@@ -71,9 +87,13 @@
     "path": "modules/github",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Issues GitHub : lecture non fiable, création externe.",
     "kit": "^0.1.0",
-    "env": ["GITHUB_TOKEN", "GITHUB_REPO"],
+    "env": [
+      "GITHUB_TOKEN",
+      "GITHUB_REPO"
+    ],
     "visibility": null
   },
   {
@@ -82,6 +102,7 @@
     "path": "modules/photo",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Shootings photo, écritures vérifiées par relecture.",
     "kit": "^0.1.0",
     "env": [],
@@ -93,6 +114,7 @@
     "path": "modules/reminders",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Rappels : module pilote du noyau modulaire.",
     "kit": "^0.1.0",
     "env": [],
@@ -104,9 +126,13 @@
     "path": "modules/schedule",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Emploi du temps CESAR en lecture.",
     "kit": "^0.1.0",
-    "env": ["CESAR_USERNAME", "CESAR_PASSWORD"],
+    "env": [
+      "CESAR_USERNAME",
+      "CESAR_PASSWORD"
+    ],
     "visibility": null
   },
   {
@@ -115,9 +141,12 @@
     "path": "modules/weather",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Météo, lecture externe non fiable.",
     "kit": "^0.1.0",
-    "env": ["OPENWEATHERMAP_API_KEY"],
+    "env": [
+      "OPENWEATHERMAP_API_KEY"
+    ],
     "visibility": null
   },
   {
@@ -126,9 +155,12 @@
     "path": "modules/web",
     "repo": null,
     "ref": null,
+    "distributable": false,
     "description": "Recherche web et métadonnées de page, non fiable.",
     "kit": "^0.1.0",
-    "env": ["BRAVE_SEARCH_API_KEY"],
+    "env": [
+      "BRAVE_SEARCH_API_KEY"
+    ],
     "visibility": null
   },
   {
@@ -137,6 +169,7 @@
     "path": null,
     "repo": "https://github.com/mprnl/BS-watch-later",
     "ref": "v1.0.1",
+    "distributable": true,
     "description": "Lien à regarder plus tard, avec page, rail, panneau et carte d'accueil.",
     "kit": "^0.1.0",
     "env": [],
@@ -148,6 +181,7 @@
     "path": null,
     "repo": "https://github.com/mprnl/BS-daily-quote",
     "ref": "v1.0.0",
+    "distributable": true,
     "description": "Une citation par jour, locale et déterministe. Module de référence.",
     "kit": "^0.1.0",
     "env": [],
