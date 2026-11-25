@@ -173,7 +173,7 @@
     "description": "Lien à regarder plus tard, avec page, rail, panneau et carte d'accueil.",
     "kit": "^0.1.0",
     "env": [],
-    "visibility": "private"
+    "visibility": "public"
   },
   {
     "id": "daily-quote",
