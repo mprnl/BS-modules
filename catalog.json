@@ -1,0 +1,20 @@
+[
+  {
+    "id": "watch-later",
+    "repo": "https://github.com/mprnl/BS-watch-later",
+    "ref": "v1.0.1",
+    "description": "Lien a regarder plus tard, avec page, rail, panneau et carte d'accueil.",
+    "kit": "^0.1.0",
+    "env": [],
+    "visibility": "private"
+  },
+  {
+    "id": "daily-quote",
+    "repo": "https://github.com/mprnl/BS-daily-quote",
+    "ref": "v1.0.0",
+    "description": "Une citation par jour, locale et deterministe. Module de reference.",
+    "kit": "^0.1.0",
+    "env": [],
+    "visibility": "public"
+  }
+]
